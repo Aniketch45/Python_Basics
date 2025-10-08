@@ -1,3 +1,4 @@
+#also known as Anonymous Func
 #Q. write lambda function to print minimum of 2 numbers
 a=int(input("Enter a:"))
 b=int(input("Enter b:"))

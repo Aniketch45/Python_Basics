@@ -30,10 +30,10 @@ def greet():
      print("Thanks for visiting")
      return inner
 
-f1=greet
-f1()
-# f1=greet()
+# f1=greet
 # f1()
+f1=greet()
+f1()
 
 
 

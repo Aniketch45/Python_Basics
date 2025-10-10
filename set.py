@@ -1,5 +1,6 @@
-# s1=eval(input("Enter values : "))
-# print(s1)
+s1=eval(input("Enter values : "))
+print(s1)
+print(type(s1))
 
 # l1=[10,20,30,22]
 # s=set(l1)
@@ -7,11 +8,11 @@
 # print(type(s))
 
 #declare
-# s={} #dict
+s={} #dict
 # s=set()
-# print(s)
+print(s)
 # s.add(50)
-# print(type(s))
+print(type(s))
 # print(s)
 
 #intialize
@@ -47,17 +48,17 @@
 # s1={}
 # s1.pop()#error
 
-s1={66,55,44,33,66,88,99}
-s1.pop()
-print(s1)
+# s1={66,55,44,33,66,88,99}
+# s1.pop()
+# print(s1)
 
-s1.remove(99) #show error if element not present
-print(s1)
+# s1.remove(99) #show error if element not present
+# print(s1)
 
-s1.discard(100) #doent error show if eleemnt not present
+# s1.discard(100) #doent error show if eleemnt not present
 
-s1.clear()
-print(s1)
+# s1.clear()
+# print(s1)
 
-del s1
-print(s1)
+# del s1
+# print(s1)

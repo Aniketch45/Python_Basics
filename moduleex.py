@@ -20,5 +20,9 @@
 # import module2 as m
 # m.prod(3,5)
 
-from module2 import prod as p
-p(3,4)
+# from module2 import prod as p
+# p(3,4)
+
+from module2 import a,sub
+print(a)
+sub(10,5)

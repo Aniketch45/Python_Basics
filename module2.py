@@ -1,8 +1,7 @@
 print("Start Module")
-x=10
-y=20
+a=90
+b=30
 
-def prod(x,y):
-    print("product is :",x*y)
+def sub(a,b):
+    print("sum is :",a-b)
 
-print("Module End")

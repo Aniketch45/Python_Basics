@@ -81,3 +81,19 @@ l2=[55,6,66,74,34]
 # while i<len:
 #     print(s[i])
 #     i+=1
+
+# print even numbers from the list
+l1=[23,4,5,66,55,33,8,2,98]
+for i in l1:
+    if i%2==0:
+        print(i)
+
+# list functions
+# count()
+# insert(index,item)
+# update(element)
+# extend()
+# remove(elemnt)
+# pop() --last elemnt
+# clear() all clears but [] remain empty
+# del l --error 

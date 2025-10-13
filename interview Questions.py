@@ -1,25 +1,26 @@
 # q1) interview Questions
 
-# comment->#
-# '''comment'''
+# comment->#  --single line comment
+# '''comment''' --multiple line comment
 
 # q2) data types in python
 # ->there are many datatypes in pyhon i start with fundamental dattypes
 # 1)int,float,complex,boolean,string and 
 # complex datatypes those are
-# byte,bytearray,list,tuple,set,dicitonary,set,frozenset
+# byte,bytearray,list,tuple,dicitonary,set,frozenset
 
 # q3) which are identity operators and expplain them.
 # -> is and is not
 # is operator is use to compare address of object if address is same returns True
-# is not operator is ude to compare address if is diffrent it returns true
+# is not operator is use to compare address if is diffrent it returns true
 
 # q4) what is conditonal opreator 
-# ->first we check condition if its true then the block of ConnectionAbortedError
+# ->first we check condition if its true then the block of Code executes
+if, if else, elif ladder
 
 # q5) expalin logical oprator
 # -> And, Or ,not
-# in and and or their are two expression left and right
+# in And and or their are two expression left and right
 # in and operator if both the ecpressions are true it return true if anyone is false it returns false
 # in or operator if anyone of the expression is ture it returns true ,it return false if both are false
 # in not it reverse the expession if expression is true->false false->true
@@ -32,7 +33,7 @@
 
 # otherwise we have eval function which will wvaluste according to datatype provided
 # ex;> eval(input("Enter data"))
-# if list give in [] brackets
+# if list give in [] brackets it takes list dtatype
 
 # q7)What is swapcase() function in python.
 # -> it is a string builtin function which converts uppercase to lowercase

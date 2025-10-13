@@ -50,13 +50,34 @@ l2=[55,6,66,74,34]
 # l3.extend(s1) #seprates each character of a string in list
 # print(l3)
 
-l3.remove(10) #element removes
-l3.pop() #last elemnt removes
-l3.clear() # clear all elemets empty list remain
-del l3 #delete list also
+# l3.remove(10) #element removes
+# l3.pop() #last elemnt removes
+# l3.clear() # clear all elemets empty list remain
+# del l3 #delete list also
 
-l2.sort() # when sorting same datatype reqiured in list
-print(l2)
+# l2.sort() # when sorting same datatype reqiured in list
+# print(l2)
 
-l2.sort(reverse=True)
-print(l2)
+# l2.sort(reverse=True)
+# print(l2)
+
+
+# q) print even numbers in list
+# l1=[10,20,5,7,6,8,2,4,5,9,22]
+# for i in l1:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+
+# q)using for loop print string characters
+# a="Aniket"
+# for i in a:
+#     print(i)
+
+# using while loop
+# s="Aniket"
+# len=len(s)
+# i=0
+# while i<len:
+#     print(s[i])
+#     i+=1

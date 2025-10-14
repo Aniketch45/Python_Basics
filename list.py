@@ -83,10 +83,10 @@ l2=[55,6,66,74,34]
 #     i+=1
 
 # print even numbers from the list
-l1=[23,4,5,66,55,33,8,2,98]
-for i in l1:
-    if i%2==0:
-        print(i)
+# l1=[23,4,5,66,55,33,8,2,98]
+# for i in l1:
+#     if i%2==0:
+#         print(i)
 
 # list functions
 # count()
@@ -97,3 +97,11 @@ for i in l1:
 # pop() --last elemnt
 # clear() all clears but [] remain empty
 # del l --error 
+
+# q) to add all elemnts to list upto 100 which are divisible by 10
+l=[]
+for i in range(1,101):
+    if i%10==0:
+        l.append(i)
+
+print(l)

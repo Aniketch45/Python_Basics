@@ -1,3 +1,4 @@
+#list
 # l1=eval(input("Enter a list Elements :")) //eval() automatically detects data list/tuple/string/list/dict
 # print(l1)
 # print(type(l1))
@@ -96,12 +97,74 @@ l2=[55,6,66,74,34]
 # remove(elemnt)
 # pop() --last elemnt
 # clear() all clears but [] remain empty
-# del l --error 
+# del l --error
+#  
 
 # q) to add all elemnts to list upto 100 which are divisible by 10
-l=[]
-for i in range(1,101):
-    if i%10==0:
-        l.append(i)
+# l=[]
+# for i in range(1,101):
+#     if i%10==0:
+#         l.append(i)
 
-print(l)
+# print(l)
+
+#aliasing (same address chnages in one reflect to another) = used for aliasing
+# l1=[10,29,30,50,60]
+# l2=l1
+# print(l1)
+# print(l2)
+# print(id(l1))
+# print(id(l2))
+# l1[2]=100
+# print(l1)
+# print(l2)
+
+#cloning creates copy using slicing and copy() (diffrent addrress if one change cannot affect other)
+# l1=[10,29,30,50,60]
+# l2=l1[:]
+# print(l1)
+# print(l2)
+# print(id(l1))
+# print(id(l2))
+# l1[2]=100
+# print(l1)
+# print(l2)
+
+#membership operator
+# in
+# not in
+
+#comparison operator
+# l1=[10,20,30,60]
+# l2=[5,30,49]
+# print(l1>l2)
+
+#address operator is,is not
+# print(l1 is l2)
+
+#list comprehension
+#synatx: varname=[expression for var in sequence condition]
+
+# l1=[i for i in range(1,11)]
+# print(l1)
+
+#q)square of even numbers using comprehension
+# l1=[i*i for i in range(1,21) if i%2==0]
+# print(l1)
+
+# q)create a new list with elemnts are present in 1st list but not in 2nd list
+# num1=[10,20,30,40]
+# num2=[30,40,50,60]
+# l2=[i for i in num1 if i not in num2]
+# print(l2)
+
+s=input("Enter string")
+w=s.split()
+print(w)
+l1=[len(i) for i in w ]
+print(l1)
+
+
+   
+    # word=len(i)
+    # print(i,word)

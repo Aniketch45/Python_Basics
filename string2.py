@@ -1,9 +1,9 @@
-#6.replacemant op {}
+#6.replacement op {}
 name="Tom"
 age=40
 sal=35000
 # #print("{0} is earning Rs.{1} and age is {2}".format(name,age,sal))
-print("{} is earning rs.{} and age is {}".format(name,age,sal))
+# print("{} is earning rs.{} and age is {}".format(name,age,sal))
 # #print("{x} is earning Rs.{y} and age is {z}".format(z=age,x=name,y=sal))
 # print(f"{name} is earning rs.{sal} and age is {age}")
 
@@ -26,25 +26,25 @@ print("{} is earning rs.{} and age is {}".format(name,age,sal))
 # print(str.endswith('als'))
 
 #3.upper(),lower(),swapcase(),title(),capitalize()
-# str="I Am Learning python basic funDaMentals"
+str="I Am Learning python basic funDaMentals"
 # s1=str.upper()
 # s1=str.lower()
 # s1=str.swapcase()
-# s1=str.title()
+s1=str.title()
 # s1=str.capitalize()
-# print(s1)
+print(s1)
 
 
 
 #2.join()
 
-'''l1=["Hi","How","are","uuu"]
-l=' '.join(l1)
-print(l)'''
+# l1=["Hi","How","are","uuu"]
+# l=' '.join(l1)
+# print(l)
 
-"""str="Learningpythonbasics"
+str="Learningpythonbasics"
 a=' '.join(str)
-print(a)"""
+print(a)
 
 
 # d="12/10/2012"

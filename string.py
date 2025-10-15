@@ -25,7 +25,7 @@ print(st1.capitalize())
 
 #string
 # s1="I Am Learning Python "
-# s2="also trying to learn API's"
+# s2="also Learning Basics of API's"
 # print(s1[0:20])
 # print(s1[0:15:2])
 # print(s1[::-1])
@@ -43,6 +43,6 @@ print(st1.capitalize())
 # print("C++" not in s1)
 
 #Comparison operator
-# print(s1>s2) #comparing using ASCII Code Capital lettres ascii is lower
+# print(s1>s2) #comparing using ASCII Code Small case lettres ascii is higher
 
 

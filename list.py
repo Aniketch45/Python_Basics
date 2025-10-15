@@ -77,9 +77,9 @@ l2=[55,6,66,74,34]
 
 # using while loop
 # s="Aniket"
-# len=len(s)
+# w=len(s)
 # i=0
-# while i<len:
+# while i<w:
 #     print(s[i])
 #     i+=1
 
@@ -152,17 +152,17 @@ l2=[55,6,66,74,34]
 # l1=[i*i for i in range(1,21) if i%2==0]
 # print(l1)
 
-# q)create a new list with elemnts are present in 1st list but not in 2nd list
+#q)create a new list with elemnts are present in 1st list but not in 2nd list
 # num1=[10,20,30,40]
 # num2=[30,40,50,60]
 # l2=[i for i in num1 if i not in num2]
 # print(l2)
 
-s=input("Enter string")
-w=s.split()
-print(w)
-l1=[len(i) for i in w ]
-print(l1)
+# s=input("Enter string")
+# w=s.split()
+# print(w)
+# l1=[len(i) for i in w ]
+# print(l1)
 
 
    

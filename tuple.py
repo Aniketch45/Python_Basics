@@ -9,9 +9,11 @@
 # print(t1)
 # print(type(t1))
 
-# t1=eval(input("Enter values for tuple:"))
-# print(t1)
-# print(type(t1))
+#FOR safe data take in program might path given of a command that harms code in hacking
+import ast
+t1=ast.literal_eval(input("Enter values for tuple:"))
+print(t1)
+print(type(t1))
 
 #empty
 # t1=()

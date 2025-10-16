@@ -1,4 +1,4 @@
-d={'a':"Apple",'b':"Banana",'m':"mango",'n':34,56:"welcome"}
+# d={'a':"Apple",'b':"Banana",'m':"mango",'n':34,56:"welcome"}
 # print(d)
 # print(id(d))
 # print(type(d))
@@ -9,43 +9,53 @@ d={'a':"Apple",'b':"Banana",'m':"mango",'n':34,56:"welcome"}
 # for k,v in d.items():
 #     print(f"key :{k} value :{v}")
 
-# d2=d.copy() // clone that dict only changes in one not Appear in second
-# d['d']='dog'
+# d2=d.copy() #copy creates copy doesnt change in other
+# print(d2)
+# d['b']="Aniket"
 # print(d)
 # print(d2)
 
-# d2=d //aliasing address same we change in one reflect to other
+# d2=d #aliasing address same we change in one reflect to other
 # d['c']="cat"
 # print(d)
 # print(d2)
 
 # print(d.keys())
-# for k in d.keys():
-#     print(k)
+# for i in d.keys():
+#     print(i)
 
-# print(d.values())
-# for v in d.values():
-#     print(v)
+# d3=d.values()
+# print(type(d3))
+# print(d3)
+# for i in d3:
+#     print(i)
+
+#list in dictionary bcoz dictionary is heterogeniouss datattype
+# heros={'indian':['Shaktiman','Gabbar','Sanju'],'hollywood':['Thor','Ironman','Spiderman','Hulk']}
+# print(heros['indian'])
+# for i in heros['indian']:
+#     print(i)
+
 
 # info={'Ram':{'eng':45,'math':89,'history':78},'ramesh':{'eng':56,'math':79,'history':70}}
-# print(Ram['eng'])
+# print(info['Ram'])
 
-d={'a':"Apple",'b':"Banana",'m':"mango",'n':34,56:"welcome"}
-# d.setdefault('g','Bat')
-# print(d)           //if key is present in dict it returns dict value if key is not pressent
-                     #//it adds given key value pair
+d={'a':"Apple",'b':'B','m':"mango",'n':34,56:"welcome"}
+# d.setdefault('b','Bat')
+# print(d)           #if key is present in dict it returns dict value if key is not pressent
+                   #it adds given key value pair
 
-# d3={12:'tu','one':78}
-# d.update(d3)   #updates add all to the dest.
-# print(d)
+d3={'india':'delhi','pakistan':'karachi','UAE':'abu-dhabi'}
+d.update(d3)   #updates add all to the dictionary
+print(d)
 
 #comprehension
 # d={ x:x*x for x in range(1,6)}
 # print(d)
 
 #q) program to find vowels present in string and count of vowels
-# st="hi hello how are you"
-# s={'a','e','i','o','u'}
+# st=input("Enter a string : ")
+# s="AEIOUaeiou"
 # d={}
 # for x in st:
 #     if x in s:
@@ -54,15 +64,15 @@ d={'a':"Apple",'b':"Banana",'m':"mango",'n':34,56:"welcome"}
 #     print(k," occured ",v,"times")
 
 #q) write a program to find number of occurences of each letter present in the given string?
-# word=input("Enter a string : ")
-# d={}
-# for i in word:
-#     d[i]=d.get(i,0)+1
+word=input("Enter a string : ")
+d={}
+for i in word:
+    d[i]=d.get(i,0)+1
+ 
+for k,v in d.items():
+    print(k," occured ",v," times")
 
-# for k,v in d.items():
-#     print(k," occured ",v," times")
-
-d=eval(input("Enter dictionary:"))
-s=sum(d.values())
-print(s)
+# d=eval(input("Enter dictionary:"))
+# s=sum(d.values())
+# print(s)
     

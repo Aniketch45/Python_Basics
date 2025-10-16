@@ -11,12 +11,14 @@
 # print(res)
 
 l1=[2,6,8,7,5,3,99]
+l2=sorted(l1,reverse=True)
+print(l2)
 l2=[4,6,7,3,56,76,23]
 # res=list(map(lambda x,y:x+y,l1,l2))
 # print(res)
 
-def add(x,y):
-    return x+y
+# def add(x,y):
+#     return x+y
 
-res=list(map(add,l1,l2))
-print(res)
+# res=list(map(add,l1,l2))
+# print(res)

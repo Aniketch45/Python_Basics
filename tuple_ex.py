@@ -6,7 +6,7 @@ for i in t1:
 
 len=len(t1)
 avg=sum/len
-print(sum)
-print("Average is",avg)
+print("total sum is ",sum)
+print("Average is ",avg)
 
 

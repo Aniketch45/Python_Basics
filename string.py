@@ -43,6 +43,6 @@ print(st1.capitalize())
 # print("C++" not in s1)
 
 #Comparison operator
-# print(s1>s2) #comparing using ASCII Code Small case lettres ascii is higher
+# print(s1>s2) #comparing using ASCII Code Small case lettres ascii value is higher
 
 

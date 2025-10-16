@@ -1,8 +1,9 @@
-# if __name__=="__main__":
-#     x=2
-#     y=4
-#     def add(a,b):
-#         print("addition is : ",a+b)
+if __name__=="__main__":
+    x=2
+    y=4
+    def add(a,b):
+        print("addition is : ",a+b)
+print(__name__)
 
 # def fact(x):
 #      ans=1
@@ -16,15 +17,15 @@
 
 # mul(56,6)
 # fact(5)
-# add(30,40)
+add(30,40)
 # print(x)
 # print(y)
 
-def modulo(x,y):
-    ans=x%y
-    print(ans)
+# def modulo(x,y):
+#     ans=x%y
+#     print(ans)
 
-if __name__=="__main__":
-    modulo(11,2)
+# if __name__=="__main__":
+#     modulo(11,2)
 
-print(__name__)
+# print(__name__)

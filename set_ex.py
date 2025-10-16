@@ -4,7 +4,7 @@
 # print(s)
 
 #print vowels in given string using set
-s=set("Aniket")
+s=set(input("Enter a string : "))
 vowel="AEIOUaeiou"
 s.intersection_update(vowel)
-print(s)
+print("vowels present in a string : ",s)

@@ -1,6 +1,6 @@
 def demo():
-    ls=list((input("Enter a list : ")))
-    #ls=list(map(int,l3.split()))
+    l=eval(input("Enter a list : "))
+    ls=list(map(int,l.split()))
     l1=sorted(ls)
     l2=list(reversed(ls))
 

@@ -17,25 +17,23 @@
 # func1(30,0)
 
 #Chaning of decorators is allowed
-def decorator(wish):
-    def inner(name):
-        print("first decor execution")
-        wish(name)
-    return inner
+# def decorator(wish):
+#     def inner(name):
+#         print("first decor execution")
+#         wish(name)
+#     return inner
 
-def decorator1(wish):
-    def inner(name):
-        print("second decor execution")
-        wish(name)
-    return inner
+# def decorator1(wish):
+#     def inner(name):
+#         print("second decor execution")
+#         wish(name)
+#     return inner
 
-@decorator
-@decorator1
-def wish(name):
-    print("hello",name,"Good Morning")
-
-    
+# @decorator
+# @decorator1
+# def wish(name):
+#     print("hello",name,"Good Morning")
 
 
-wish("anand")
+# wish("anand")
  

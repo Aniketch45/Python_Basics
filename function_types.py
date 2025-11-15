@@ -49,7 +49,7 @@
 #     print(a+b)
 
 # funarg(10,20,kw="hello") #keyword argument
-#first positional the keyword iif not then synatx error positinal arguments follow keyword arg
+#first positional then keyword iif not then synatx error positinal arguments follow keyword arg
 
 
 #default arg
@@ -80,15 +80,15 @@
 # vlarg("Aniket",30,70)
 
 # def fun1(*s,name):   #After variable length argument, if we want to provide positional argument 
-#     mul=1            #then compulsorily we have to provide those values as keyword arguments only
+#     mul=1            #then compulsurily we have to provide those values as keyword arguments only
 #     for i in s:
 #         mul*=i
 #     print(name,mul)   
 
 # fun1(name="Aniket")
-# fun1(10,20,name="Aniket")
+# fun1(19,9,name="mohit")
 
-#variable lenght keyword argument
+# variable lenght keyword argument
 def display(**kwargs):
     for k,v in kwargs.items():
         print(k," : ",v)

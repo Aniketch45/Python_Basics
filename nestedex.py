@@ -11,10 +11,16 @@
 #         print(" *",end="")
 #     print()
 
-for i in range(1,5):
-    for j in range(i):
-        print(i,end="")
-    print()
+# for i in range(1,5):
+#     for j in range(i):
+#         print(i,end="")
+#     print()
+
+for i in range(1,5): 
+    for j in range(i//2):
+        if j==2:
+        print("*",end=" ")
+    
    
 # ''' * * * *
 #     *     *
@@ -25,3 +31,11 @@ for i in range(1,5):
 #     * *
 #     1 2 3 
 #     * * * *
+
+# for i in range(1,5): //ok
+#     for j in range(i):
+#         if(i==3):
+#             print(j+1,end=" ")
+#         else:
+#             print("*",end=" ")
+#     print()

@@ -1,10 +1,10 @@
 q1) interview Questions
 
-comment->  --single line comment
+comment-> # --single line comment
 '''comment''' --multiple line comment
 
 q2) data types in python
-->there are many datatypes in pyhon i start with fundamental dattypes
+->there are many datatypes in python i start with fundamental dattypes
 1)int,float,complex,boolean,string and 
 complex datatypes those are
 byte,bytearray,list,tuple,dicitonary,set,frozenset
@@ -18,7 +18,7 @@ q4) what is conditonal opreator
 ->first we check condition if its true then the block of Code executes
 if, if else, elif ladder
 
-q5) expalin logical oprator
+q5) explain logical oprator
 -> And, Or ,not
 in And and or their are two expression left and right
 in and operator if both the expressions are true it return true if anyone is false it returns false

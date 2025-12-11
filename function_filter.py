@@ -16,8 +16,12 @@
 # res=list(filter(fun1,l2))
 # print(res)
 
-list1=[10,15,5,20,37,12]
-list2=[11,20,55,15]
+# list1=[10,15,5,20,37,12]
+# list2=[11,20,55,15]
 
-ans=list(filter(lambda x:x not in list2,list1))
-print(ans)
+# ans=list(filter(lambda x:x not in list2,list1))
+# print(ans)
+
+l=[10,3,44,23,41,7,9,12]
+odd=list(filter(lambda a:a%2!=0,l))
+print(odd)

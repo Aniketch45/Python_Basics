@@ -1,11 +1,11 @@
 # function map()
 
-def sq(n):
-    return 2*n
+# def sq(n):
+#     return 2*n
 
-l1=[2,6,8,7,5,3,99]
-res=list(map(sq,l1))
-print(res)
+# l1=[2,6,8,7,5,3,99]
+# res=list(map(sq,l1))
+# print(res)
 
 # res=list(map(lambda n:2*n,l1))
 # print(res)
@@ -22,3 +22,15 @@ print(res)
 
 # res=list(map(add,l1,l2))
 # print(res)
+
+
+# def add(a,b=[]):
+#     b.append(a)
+#     return b
+
+nums=[1,2,3,4]
+
+for i in nums:             #nums is updated
+    nums.remove(i)
+
+print(nums)

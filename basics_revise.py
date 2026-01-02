@@ -89,19 +89,197 @@ stmt="hi good evening"
 # var = 'hi hello \n how\b are \t you?'
 # print(var)
 
-students=["Amit","Chirag","Akash","Sagar","Uday","Aniket"]
-print(students[2])
+# students=["Amit","Chirag","Akash","Sagar","Uday","Aniket"]
+# print(students[2])
 
-print(len(students))
+# print(len(students))
 
 list2=['Ram',25,8.90,'Aniket',True,[10,49,80],('Chafekar',51)]
-print(list2[5])
+# print(list2[5])
 
-tup=('Chafekar',51)
-print(type(tup))
-list=list(tup)
-print(type(list2))
+# tup=('Chafekar',51)
+# print(type(tup))
+# list=list(tup)
+# print(type(list2))
+
+# list2.append('2026')
+# print(list2)
+
+#copying doesn't change to original
+# li=list2.copy()
+# print(li)
+# li.pop()
+# print(li)
+# print(list2)
+
+#Aliasing referencing to same memory Address
+# li=list2
+# print(li)
+# li.remove("Aniket")
+# print(li)
+# print(list2)
+
+# print(list2.count(25))
+# print(list2.index('Aniket'))
+# list2.insert(4,"Heloo")
+# print(list2)
+# list2.remove('Heloo')
+# print(list2)
+# list2.reverse()
+# print(list2)
+
+list3=[20,11,64,9,64,10,88]
+# list3.sort()
+# print(list3)
+
+# list3.sort(reverse=True)
+# print(list3)
+
+
+#tuple
+# data = ('Nashik','Pune','Chh. Sambhajinagar','Dhule','A.Nagar')
+# print(data.count('Nashik'))
+# print(data.index('Chh. Sambhajinagar'))
+
+#tuple is immutable ordered and unchangeable
+#so we can't update tuple to update it we have to do tule->list->update list->tuple
+
+# data= ('Nashik','Pune','Chh. Sambhajinagar','Dhule','A.Nagar')
+# data2 = list(data)
+# data2.insert(5,'Mumbai')
+# print(data2)
+# data = tuple(data2)
+# print(data)
+# print(type(data))
+
+#set
+#unordered, unchangeable and unindexed Collection
+# data={10,20,10,30,40,22,50}
+# print(data)
+# print(type(data))
+
+#we cn't access using index set items we use for loop
+# for i in data:
+#     print(i)
+
+# # data.add(77)
+# print(data)
+
+# data2={20,40,55,39}
+# data.update(data2)
+# print(data)
+
+# data.remove(55)              #if value not present gives key error
+# print(data)
+
+# data.discard(30)         #if value not present not give any error
+# print(data)
+
+# print("popped item is",data.pop())
+# print("popped item is",data.pop())
+
+# data.clear()
+# print(data)
+
+#del keyword
+#remove whole set
+# del data
+
+# data1 = {30,20,40,60,80}
+# data2 = {40,30,66,80,45}
+# data3 = data1.union(data2)
+# print(data3)
+
+# data1.update(data2)
+# print(data1)
+
+# data3 = data1 | data2
+# print(data3)
+
+# data1.intersection_update(data2)
+# print(data1)
+
+# data1.intersection_update(data2)
+# print(data1)
+
+# 
+# data3 = data1 - data2
+# print(data3)
+
+# data1.difference_update(data2)
+# print(data1)
+
+# data3 = data1.symmetric_difference(data2)
+# print(data2)
+
+# data3 = data1 ^ data2
+# print(data3)
+
+# data1.symmetric_difference_update(data2)
+# print(data1)
 
 
 
+#Dictionary
+#store key : value pair access using keys
+#dictionary is ordered and changeable collection, does not allow duplicate keys
+#  we can update values using keys also have update()
+
+data = {"name": "Aniket", "surname" : "Chafekar" , "Education" : "Bachlore's" , "Address" : "Chh. Sambhajinagar"}
+# print(data)
+# print(type(data))
+
+# print(data.keys())
+# print(data.values())
+# print(data.items())
+
+# data.update({"age" : 21})
+# data.update({"college" : "kkw Nashik"})
+# print(data)
+
+# data["cgpa"] = 8.68   #we can add data using assigning value to dicti.
+# print(data)
+
+# data.pop("cgpa")     #remove specified keys value
+# print(data)
+
+# data.popitem()    #remove last inserted item
+# print(data)
+
+# del data["surname"]   #delete using del keyword with specified key
+# print(data)
+
+# del data               #delete dictionary
+# print(data)
+
+# data.clear()         #clear all data dictionary structure remain {}
+# print(data)
+
+#for copying Dictionary copy(), dict()
+# data2 = data.copy()
+# print(data2)
+
+# data2.popitem()
+# print(data2)
+# print(data)
+
+# data2 = dict(data)
+
+# data2.pop("name")
+# print(data2)
+# print(data)
+
+#it is aliasing if we change in anyone it reflect to other 
+# data2 = data
+
+# data2.popitem()
+# print(data2)
+# print(data)
+
+#fromkeys()  returns a dictionary with the specified keys and value 
+#use for intializing value to any value by default is None
+# ex
+products = ["Watch" , "Mobile" , "Earphones"]
+inventory = dict.fromkeys(products, 0) 
+print(inventory)
 

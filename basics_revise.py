@@ -279,7 +279,21 @@ data = {"name": "Aniket", "surname" : "Chafekar" , "Education" : "Bachlore's" , 
 #fromkeys()  returns a dictionary with the specified keys and value 
 #use for intializing value to any value by default is None
 # ex
-products = ["Watch" , "Mobile" , "Earphones"]
-inventory = dict.fromkeys(products, 0) 
-print(inventory)
+# products = ["Watch" , "Mobile" , "Earphones"]
+# inventory = dict.fromkeys(products, 0) 
+# print(inventory)
+
+#place element startwith A in another list and all into another
+arr = ["Aniket" , "Rahul" , "Chirag" , "Ram" , "Suresh" , "Pravin"]
+arr2 = []
+arr3 = []
+for i in arr:
+    if i.startswith('A'):
+        arr2.append(i)
+    else:
+        arr3.append(i)
+
+
+print(arr3)
+print(arr2)
 

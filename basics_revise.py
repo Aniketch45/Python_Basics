@@ -284,16 +284,90 @@ data = {"name": "Aniket", "surname" : "Chafekar" , "Education" : "Bachlore's" , 
 # print(inventory)
 
 #place element startwith A in another list and all into another
-arr = ["Aniket" , "Rahul" , "Chirag" , "Ram" , "Suresh" , "Pravin"]
-arr2 = []
-arr3 = []
-for i in arr:
-    if i.startswith('A'):
-        arr2.append(i)
-    else:
-        arr3.append(i)
+# arr = ["Aniket" , "Rahul" , "Chirag" , "Ram" , "Suresh" , "Pravin"]
+# arr2 = []
+# arr3 = []
+# for i in arr:
+#     if i.startswith('A'):
+#         arr2.append(i)
+#     else:
+#         arr3.append(i)
 
 
-print(arr3)
-print(arr2)
+# print(arr3)
+# print(arr2)
+
+
+#Conditional statements
+#1. if
+#2. if else
+#3. elif ladder
+#4. match Statement (switch like)
+
+# a = -1
+# if a>0: print("positive Number")
+
+# print("Positive Number") if a>0 else print("Negative Number")
+
+# username = "abc"
+# password = "abc@123"
+# if username == "abc" and password == "abc@123":
+#     print("Login Successfully")
+# else:
+#     print("invalid Credentials")
+
+# name = "Aniket"
+# bloodgroup = "O"
+# if name == "Aniket" or bloodgroup == "B+":
+#     print("Welcome")
+# else:
+#     print("Thanks")
+
+# a = 20
+# b = 19
+# if not a == b:
+#     print("true 1")
+# else:
+#     print("false 1")
+
+#elif ladder
+# num = 10
+# if num < 0:
+#     print("Negative Number")
+# elif num > 0:
+#     print("positive Number")
+# else:
+#     print("Number is zero")
+
+#Match Statement
+
+# status = 204
+# match status:
+#     case  404:
+#         print("Not Found")
+#     case 400:
+#         print("Bad Request")
+#     case 200:
+#         print("Success")
+#     case 204:
+#         print("No Content")
+#     case 500:
+#         print("Server Error")
+#     case 503:
+#         print("Service Unavailable")
+#     case _:                                    #default case
+#         print("Invalid status")
+
+name = input("Enter name :")
+age = int(input("Enter Age :"))
+match name:
+    case "Aniket" | "Viki" | "Rushikesh" if age > 10:
+        print("student in class number is 302")
+    case "Chirag" | "Pravin" | "Mohan" if age > 10:
+        print("Student class number is 201")
+    case _:
+        print("Wrong Student Name Entered !")
+
+
+
 

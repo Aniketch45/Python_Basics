@@ -358,16 +358,85 @@ data = {"name": "Aniket", "surname" : "Chafekar" , "Education" : "Bachlore's" , 
 #     case _:                                    #default case
 #         print("Invalid status")
 
-name = input("Enter name :")
-age = int(input("Enter Age :"))
-match name:
-    case "Aniket" | "Viki" | "Rushikesh" if age > 10:
-        print("student in class number is 302")
-    case "Chirag" | "Pravin" | "Mohan" if age > 10:
-        print("Student class number is 201")
-    case _:
-        print("Wrong Student Name Entered !")
+# name = input("Enter name :")
+# age = int(input("Enter Age :"))
+# match name:
+#     case "Aniket" | "Viki" | "Rushikesh" if age > 19:
+#         print("student in class number is 302")
+#     case "Chirag" | "Pravin" | "Mohan" if age > 19:
+#         print("Student class number is 201")
+#     case _:
+#         print("Wrong Student Name Entered !")
+
+#Loops
+'''1) for loop
+2)while loop
+'''
+marks = [66,78,45,98,77,66]
+# for i in marks:
+#     print(i,end=" ")
+
+# print()
+# name = "Aniket"
+# for i in name:
+#     print(i,end=" ")
+
+# for i in marks:
+#     if i == 98:
+#         break      #stop iteration at that time
+#     print(i)
+
+names = ["Aniket", "Viki", "Harsh", "Raj"]
+# for i in names:
+#     if i == "Viki":
+#         continue           #skip current iteartion move to the next ite.
+#     print(i)
+
+# for i in names:
+#     print(i)
+# else:
+#     print("loop Completed")
+
+#While loop
+# i=1
+# while (i<=20):
+#     if i == 10:
+#         break
+#     print(i,end=" ")
+#     i+=1
+
+# i=0
+# while(i<20):
+#     i+=1
+#     if i==5:
+#         continue       #skip current move to next ite.
+#     print(i)
+
+# for i in range(5):
+#     for j in range(5):
+#         pass         #use for syntactically don't want to execute 
+        #logic not decided yet
+
+#Functions
+# A function is a block of code which runs when we call that function by object
+#we can pass data to  functions is called parameters, a fuction can return data as a result
+'''def Keyword is used for declation of a function
+synatx = def fun_name(arguments):
+              func_logic
+              
+for fuction we have to call it then it will be Executed
+for calling 
+syntax = func_name()'''
+
+def func(name):
+    print(name)
+
+func("Aniket")
+func("Viki")
 
 
 
+  
 
+
+    

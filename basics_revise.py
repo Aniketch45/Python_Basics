@@ -419,24 +419,99 @@ names = ["Aniket", "Viki", "Harsh", "Raj"]
 
 #Functions
 # A function is a block of code which runs when we call that function by object
-#we can pass data to  functions is called parameters, a fuction can return data as a result
-'''def Keyword is used for declation of a function
-synatx = def fun_name(arguments):
+# we can pass data to functions is called parameters, a fuction can return data as a result
+'''def Keyword is used for declartion of a function
+syntax = def fun_name(arguments):
               func_logic
               
 for fuction we have to call it then it will be Executed
 for calling 
 syntax = func_name()'''
 
-def func(name):
-    print(name)
+# def func(name):
+#     print(name)
 
-func("Aniket")
-func("Viki")
+# func("Aniket")
+# func("Viki")
 
+#if we don't known how many arguments are passed  we can use *args store in a tuple
+# def func(*args):
+#     print("Names are :",args)
+#     print(args[2])
 
+# func("Aniket","Ravindra","Niraj","Sagar")
+
+#keyword Argument
+# pass data in arguments as key value pair
+# def func(marks1,marks2,marks3):
+#     print("Marks 1 are",marks1)
+#     print("Marks 2 are",marks2)
+#     print("Marks 3 are",marks3)
+
+# func(marks2 = 80,marks3 = 45,marks1 = 90)
+
+# variable length keyword arguments
+# **kwargs
+# def func(**kwargs):
+#     print("first name :",kwargs["firstname"])
+#     print("middle name :",kwargs["middlename"])
+#     print("surname :",kwargs["surname"])
+
+# func(firstname = "Aniket", middlename = "Sopan ", surname = "Chafekar")
+
+#default parameter
+#we can assign default value to parameter if value not passed in argument it takes default value
+# def func(college = "KKW"):
+#     print("College name is :",college)
+
+# func("KTHM")
+# func()
+
+# we can pass any sequence to function also
+
+# def func(centers):
+#     for i in centers:
+#         print("Center name is ",i)
+
+# location = ["Pune","Mumbai","Banglore","Heydrabad","Delhi","Nashik"]
+# func(location)
+
+#function can return results using return keyword (in other languages we can return single value result in python
+#  sequence also we can return as a result)
+
+# def func():
+#     a = 45
+#     b = 12
+#     c = a+b
+#     return c
+
+# num = func()
+# print(num)
+
+# 1) Function with no parameters and no return
+# 2) function with parameters and no return
+# 3) functiom with no parameters and return Value
+# 4) function with parameters and return value
 
   
+#function decorator means we add some additional functionality to the existing function without modifying that function using @ annotation
+# we add some extra features to it
+# syntax:
+'''@decorator_name
+def function_name():
+    #code'''
 
+def greetings(fx): 
+    def greet():       
+        print("Good Morning.!")       
+        fx() 
+        print("Thank you for using function.!") 
+    return greet 
+
+@greetings 
+def func():  
+    print("Hello World.!")
+
+func()
 
     

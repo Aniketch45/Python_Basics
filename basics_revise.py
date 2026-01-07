@@ -501,17 +501,130 @@ syntax = func_name()'''
 def function_name():
     #code'''
 
-def greetings(fx): 
-    def greet():       
-        print("Good Morning.!")       
-        fx() 
-        print("Thank you for using function.!") 
-    return greet 
+# def greetings(fx): 
+#     def greet():       
+#         print("Good Morning.!")       
+#         fx() 
+#         print("Thank you for using function.!") 
+#     return greet 
 
-@greetings 
-def func():  
-    print("Hello World.!")
+# @greetings 
+# def func():  
+#     print("Hello World.!")
 
-func()
+# func()
+
+# def message(fx):
+#     def greet():
+#         print("you have a Good day")
+#         fx()
+#         print("Thanks For Visiting")
+#     return greet
+
+# @message
+# def f1():
+#     print("hello Welcome to Fct")
+
+# f1()
 
     
+
+#Modules in python
+# A group of functions, variables and classes saved to a file is called a Module.
+# .py file is act as a module
+
+#various ways to import module 
+# import math
+# print(math.lcm(20,30))
+
+# import math as mt                 #Renaming to math as mt we also give to fuctions and properties
+# print(mt.lcm(30,40))
+
+# from math import lcm
+# print(lcm(30,50))
+
+# from math import lcm as l
+# print(l(50,70))
+
+# from math import *
+# print(lcm(20,30))
+# print(pi)
+# print(ceil(8.1))
+# print(floor(3.9))
+# print(factorial(5))
+# print(perm(5,2))
+# print(gcd(12,18))
+#sin, cos, tan, asin, acos, atan
+
+# from math import lcm,fsum
+
+# from math import lcm as l, fsum as f    #member aliasing
+
+from random import *
+# print(randint(1,20))
+
+# li = [10,20,30,40,50,60]
+# print(choice(li))
+
+# for i in range(2):
+#     print(random())       #return number 0 to 1 , 1 is excluded
+
+# for i in range(2):
+#     print(uniform(1,29))       # return a random float number in given range
+
+# for i in range(5):
+#     print(randrange(1,10))        #returns a random number
+ 
+# for i in range(5):
+#     print(randrange(0,20,2))            #start,stop,step
+
+# file Handling
+#we use file handling for storing our data permentantly for future purposes.
+
+# two types of file
+# 1) text File    use for storing text data   .txt extension is used
+# 2) Binary File    use for storing data Binary files data audio, video, images
+
+# file_handle = open(filename, mode)
+
+f = open("file2.txt", 'r')
+data = f.read(5)
+print(data)
+
+f.close()
+
+#modes are 
+'''
+r = for reading file if file not exist gives error 'FileNotFoundError'
+w = for write it also create a file if not exist
+a = open an exisiting file for append operation add data to last if file is not present create a file
+r+ = read + write it doesn't override the existing data insert data at the starting of the file
+w+ = write + read it overrides existing data in the file
+a+ = append + read data from existing file it not override file pointer at end of file  
+x = to create exclusive a new file only if file alredy exist gu=ives error'''
+
+# for binary add suffix b to all file modes a rb , wb, xb, xb+ etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

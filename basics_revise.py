@@ -587,11 +587,16 @@ from random import *
 
 # file_handle = open(filename, mode)
 
-f = open("file2.txt", 'r')
-data = f.read(5)
-print(data)
+# f = open("file2.txt", 'w+')
+# # data = f.read(5)
+# print(data)
 
-f.close()
+# f.write("Hello sir, Good Morning thanks for giving me this opportunity")
+
+# data = f.read()
+# print(data)
+
+# f.close()
 
 #modes are 
 '''
@@ -601,9 +606,43 @@ a = open an exisiting file for append operation add data to last if file is not 
 r+ = read + write it doesn't override the existing data insert data at the starting of the file
 w+ = write + read it overrides existing data in the file
 a+ = append + read data from existing file it not override file pointer at end of file  
-x = to create exclusive a new file only if file alredy exist gu=ives error'''
+x = to create exclusive a new file only, if file alredy exist gives error'''
 
-# for binary add suffix b to all file modes a rb , wb, xb, xb+ etc
+# for binary add suffix b to all file modes a rb, wb, xb, xb+ etc
+
+#with statement in file file -> we doen't care about closing a file
+
+# with open("file2.txt",'r') as f:
+#     data = f.read()
+#     print(data)
+# print(f.closed)
+
+#tell() and seek() methods
+
+# tell() -> used to find the pointer position of the cursor,by default at zero
+# seek() -> we use seek method for move cursor (file pointer) to any location in the file
+
+# f = open("file2.txt", 'r+')
+# print(f.tell())
+# data = f.read()
+# print(f.tell())
+
+# f.close()
+
+# with open("file2.txt" , 'w+') as f2:
+#     f2.write("hi how are you, Good Morning")
+#     f2.seek(10)
+#     data = f2.read()
+#     print(data)
+
+# How to check if a file is present or not ?
+# import os
+# print(os.path.isfile('file2.txt'))
+
+
+
+
+
 
 
 
